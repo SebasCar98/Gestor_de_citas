@@ -21,11 +21,11 @@ citas y tipos de citas médicas, facilitando la interacción con la base de dato
 
 Instrucciones paso a paso de la instalacion despues del entorno.
 
-    ```bash
-    git clone https://github.com/tu-usuario/tu-repositorio.git
-    cd tu-repositorio
-    pip install -r requirements.txt
-    flask run
+      git clone https://github.com/tu-usuario/tu-repositorio.git
+      cd tu-repositorio
+      pip install -r requirements.txt
+      flask run
+   
 
 ## Stack Tecnologico
 
