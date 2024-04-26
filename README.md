@@ -24,9 +24,11 @@ Instrucciones paso a paso de la instalacion despues del entorno.
       git clone https://github.com/SebasCar98/Gestor_de_citas.git
       cd tu-repositorio
       pip install -r requirements.txt
-      flask run
    
-
+Inicializa la base de datos
+      ```bash
+      flask db upgrade
+      
 ## Stack Tecnologico
 
 - Flask
