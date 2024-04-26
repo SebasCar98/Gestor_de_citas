@@ -18,14 +18,45 @@ citas y tipos de citas médicas, facilitando la interacción con la base de dato
 
    ```bash
    pip install virtualenv
+   ```
+2. Crear y activar un entorno virtual:
+   ```bash
+   # En Windows
+   python -m venv venv
+   .\venv\Scripts\activate
 
-Instrucciones paso a paso de la instalacion despues del entorno.
+   # En macOS y Linux
+   python3 -m venv venv
+   source venv/bin/activate
+   ```
+4. Instrucciones paso a paso de la instalacion despues del entorno.
 
+   ```bash
       git clone https://github.com/SebasCar98/Gestor_de_citas.git
-      cd tu-repositorio
+      cd Gestor_de_citas
       pip install -r requirements.txt
-      flask run
-   
+   ```
+
+### Configuración de la Base de Datos y Migraciones
+
+Después de instalar las dependencias y antes de ejecutar la aplicación, asegúrate de configurar y preparar la base de datos:
+
+1. **Inicializa la base de datos:**
+   ```bash
+   flask db init
+   ```
+4. **Crear y aplicar migraciones:**
+   ```bash
+   flask db migrate -m "Initial migration"
+   flask db upgrade
+   ```
+### Ejecutar la Aplicación
+
+Inicia el servidor de desarrollo de Flask para correr la aplicación:
+
+   ```bash
+   flask run
+   ```
 
 ## Stack Tecnologico
 
@@ -33,6 +64,7 @@ Instrucciones paso a paso de la instalacion despues del entorno.
 - SQLAlchemy
 - SQLite
 - Flask-RESTful.
+- Flask-Migrate
 
 El sistema está diseñado para ser simple pero funcional, 
 proporcionando una base robusta para cualquier expansión futura o 
@@ -42,6 +74,8 @@ personalización necesaria para adaptarse a diferentes requisitos o entornos de 
 
 A continuación, se muestran algunas capturas de pantalla que demuestran el funcionamiento del sistema 
 a través de Postman.
+
+
 
 ### Estructura de Postman para las pruebas.
 
@@ -62,7 +96,7 @@ a través de Postman.
 
 ### Solicitud de get de Pacientes Creados.
 
-![](images/image5paciente_get.png)
+![](images/image4paciente_get.png)
 
 ### Solicitud de Creación de una cita
 
