@@ -21,14 +21,16 @@ citas y tipos de citas médicas, facilitando la interacción con la base de dato
 
 Instrucciones paso a paso de la instalacion despues del entorno.
 
+   ```bash
       git clone https://github.com/SebasCar98/Gestor_de_citas.git
-      cd tu-repositorio
+      cd Gestor_de_citas
       pip install -r requirements.txt
-   
+   ```
 Inicializa la base de datos
-      ```bash
-      flask db upgrade
-      
+   ```bash
+   flask db upgrade
+   ```   
+
 ## Stack Tecnologico
 
 - Flask
