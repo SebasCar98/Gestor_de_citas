@@ -18,7 +18,7 @@ citas y tipos de citas médicas, facilitando la interacción con la base de dato
 
    ```bash
    pip install virtualenv
-
+   ```
 2. Instrucciones paso a paso de la instalacion despues del entorno.
 
    ```bash
@@ -54,6 +54,7 @@ Inicia el servidor de desarrollo de Flask para correr la aplicación:
 - SQLAlchemy
 - SQLite
 - Flask-RESTful.
+- Flask-Migrate
 
 El sistema está diseñado para ser simple pero funcional, 
 proporcionando una base robusta para cualquier expansión futura o 
@@ -63,6 +64,8 @@ personalización necesaria para adaptarse a diferentes requisitos o entornos de 
 
 A continuación, se muestran algunas capturas de pantalla que demuestran el funcionamiento del sistema 
 a través de Postman.
+
+
 
 ### Estructura de Postman para las pruebas.
 
