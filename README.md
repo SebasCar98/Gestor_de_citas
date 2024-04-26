@@ -19,7 +19,17 @@ citas y tipos de citas médicas, facilitando la interacción con la base de dato
    ```bash
    pip install virtualenv
    ```
-2. Instrucciones paso a paso de la instalacion despues del entorno.
+2. Crear y activar un entorno virtual:
+   ```bash
+   # En Windows
+   python -m venv venv
+   .\venv\Scripts\activate
+
+   # En macOS y Linux
+   python3 -m venv venv
+   source venv/bin/activate
+   ```
+4. Instrucciones paso a paso de la instalacion despues del entorno.
 
    ```bash
       git clone https://github.com/SebasCar98/Gestor_de_citas.git
