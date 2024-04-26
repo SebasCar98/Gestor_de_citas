@@ -19,17 +19,34 @@ citas y tipos de citas médicas, facilitando la interacción con la base de dato
    ```bash
    pip install virtualenv
 
-Instrucciones paso a paso de la instalacion despues del entorno.
+2. Instrucciones paso a paso de la instalacion despues del entorno.
 
    ```bash
       git clone https://github.com/SebasCar98/Gestor_de_citas.git
       cd Gestor_de_citas
       pip install -r requirements.txt
    ```
-Inicializa la base de datos
+
+### Configuración de la Base de Datos y Migraciones
+
+Después de instalar las dependencias y antes de ejecutar la aplicación, asegúrate de configurar y preparar la base de datos:
+
+1. **Inicializa la base de datos:**
    ```bash
+   flask db init
+   ```
+4. **Crear y aplicar migraciones:**
+   ```bash
+   flask db migrate -m "Initial migration"
    flask db upgrade
-   ```   
+   ```
+### Ejecutar la Aplicación
+
+Inicia el servidor de desarrollo de Flask para correr la aplicación:
+
+   ```bash
+   flask run
+   ```
 
 ## Stack Tecnologico
 
