@@ -21,7 +21,7 @@ citas y tipos de citas médicas, facilitando la interacción con la base de dato
 
 Instrucciones paso a paso de la instalacion despues del entorno.
 
-      git clone https://github.com/tu-usuario/tu-repositorio.git
+      git clone https://github.com/SebasCar98/Gestor_de_citas.git
       cd tu-repositorio
       pip install -r requirements.txt
       flask run
