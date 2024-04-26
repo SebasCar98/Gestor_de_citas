@@ -62,7 +62,7 @@ a través de Postman.
 
 ### Solicitud de get de Pacientes Creados.
 
-![](images/image5paciente_get.png)
+![](images/image4paciente_get.png)
 
 ### Solicitud de Creación de una cita
 
