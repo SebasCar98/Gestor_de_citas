@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Gestor de Citas</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <aside class="sidebar">
+        <!-- Sidebar con enlaces -->
+        <nav>
+            <ul>
+                <li><a href="/dashboard#doctors-section">Doctores</a></li>
+                <li><a href="/dashboard#patients-section">Pacientes</a></li>
+                <li><a href="/dashboard#appointments-section">Citas</a></li>
+            </ul>
+        </nav>
+    </aside>
+    <main class="main-content">
+        {% block content %}
+        <div class="dashboard">
+            <section class="dashboard-header">
+                <h1>Bienvenido al Gestor de Citas Médicas</h1>
+                <p>Seleccione una opción del menú para empezar.</p>
+            </section>
+            <section class="dashboard-content">
+                <!-- El contenido específico de cada sección se cargará aquí -->
+            </section>
+        </div>
+        {% endblock %}
+    </main>
+    <script src="{{ url_for('static', filename='js/scripts.js') }}"></script>
+</body>
+</html>
